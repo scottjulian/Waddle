@@ -1,7 +1,7 @@
 package net.scottjulian.Waddle.util;
 
 
-public class BinaryTreeNode {
+public final class BinaryTreeNode {
     public BinaryTreeNode left;
     public BinaryTreeNode right;
     int value;

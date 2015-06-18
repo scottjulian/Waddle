@@ -11,5 +11,8 @@ A collection of algorithms in Java
 ### Arrays
 * find duplicate within a given domain
 
+### Linked Lists
+* reverse a single linked list in place between ```m``` and ```n```
+
 ### Misc
 * count the number of 1's islands in 2d matrix
