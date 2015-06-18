@@ -1,7 +1,7 @@
 package net.scottjulian.Waddle;
 
 
-import net.scottjulian.Waddle.utils.Islands;
+import net.scottjulian.Waddle.classes.Islands;
 
 public class Waddle {
 

@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle.utils;
+package net.scottjulian.Waddle.classes;
 
 
 public final class Islands {
