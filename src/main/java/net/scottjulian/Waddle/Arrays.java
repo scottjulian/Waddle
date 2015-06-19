@@ -33,6 +33,7 @@ public final class Arrays {
         return false;
     }
 
+
     /**
      *
      * https://leetcode.com/problems/word-search/
@@ -68,6 +69,29 @@ public final class Arrays {
                         doesWordExist(board, row+1, col  , word, pos+1);
         board[row][col] = word.charAt(pos);
         return exist;
+    }
+
+
+    /**
+     *
+     * https://leetcode.com/problems/two-sum/
+     *
+     * @param numbers
+     * @param target
+     * @return
+     */
+    public static int[] findTwoSumIndices(int[] numbers, int target){
+        for(int i = 0; i < numbers.length; i ++){
+            for(int k = i + 1; k < numbers.length; k++){
+                if(numbers[i] + numbers[k] == target){
+                    int[] indices = {i+1, k+1};
+                    return indices;
+                }
+
+            }
+        }
+        int[] zeroes = {0, 0};
+        return zeroes;
     }
 
 }

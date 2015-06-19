@@ -10,6 +10,7 @@ A Waddle is a group of penguins
 ### Arrays
 * find duplicate within a given domain
 * does a word exist in 2d grid
+* find indices of 2 ints that add up to target value
 
 ### Linked Lists
 * reverse a single linked list in place between ```m``` and ```n```
