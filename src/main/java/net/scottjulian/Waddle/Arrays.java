@@ -33,4 +33,41 @@ public final class Arrays {
         return false;
     }
 
+    /**
+     *
+     * https://leetcode.com/problems/word-search/
+     *
+     * @param board
+     * @param word
+     * @return
+     */
+    public static boolean doesWordExistInBoard(char[][] board, String word){
+        for(int row = 0; row < board.length; row++){
+            for(int col = 0; col < board[row].length; col++){
+                if(doesWordExist(board, row, col, word, 0)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    private static boolean doesWordExist(char[][] board, int row, int col, String word, int pos){
+        if(pos == word.length())
+            return true;
+        else if(row < 0 || row >= board.length)
+            return false;
+        else if(col < 0 || col >= board[row].length)
+            return false;
+        else if(board[row][col] != word.charAt(pos))
+            return false;
+
+        board[row][col] = '!';
+        boolean exist = doesWordExist(board, row-1, col  , word, pos+1) ||
+                        doesWordExist(board, row  , col-1, word, pos+1) ||
+                        doesWordExist(board, row  , col+1, word, pos+1) ||
+                        doesWordExist(board, row+1, col  , word, pos+1);
+        board[row][col] = word.charAt(pos);
+        return exist;
+    }
+
 }
