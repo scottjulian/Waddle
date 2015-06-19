@@ -1,6 +1,7 @@
 package net.scottjulian.Waddle;
 
 
+import net.scottjulian.Waddle.util.Islands;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,7 +16,7 @@ public class IslandsTest {
                 { 1, 0, 0, 0 },
                 { 0, 0, 1, 0 }
         };
-        int numIslands = Waddle.countNumberOfIslands(grid);
+        int numIslands = Islands.countNumberOfIslands(grid);
         assertEquals(3, numIslands);
     }
 
@@ -29,7 +30,7 @@ public class IslandsTest {
                 { 0, 0, 1, 0, 1, 1 },
                 { 1, 1, 1, 0, 0, 0}
         };
-        int numIslands = Waddle.countNumberOfIslands(grid);
+        int numIslands = Islands.countNumberOfIslands(grid);
         assertEquals(4, numIslands);
     }
 
@@ -47,7 +48,7 @@ public class IslandsTest {
                 { 1, 1, 0, 0, 0, 0, 1, 0, 1, 1 },
                 { 0, 1, 1, 0, 0, 0, 0, 1, 1, 0 },
         };
-        int numIslands = Waddle.countNumberOfIslands(grid);
+        int numIslands = Islands.countNumberOfIslands(grid);
         assertEquals(6, numIslands);
     }
 }

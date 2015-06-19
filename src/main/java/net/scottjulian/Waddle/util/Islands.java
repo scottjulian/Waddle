@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle.classes;
+package net.scottjulian.Waddle.util;
 
 
 public final class Islands {
@@ -6,6 +6,12 @@ public final class Islands {
     private static boolean[][] _visitedNodes;
     private static int[][] _grid;
 
+    /**
+     * Given a 2-dimensional grid of 1's & 0's, find the number of "1's" islands.
+     *
+     * @param grid
+     * @return number of islands
+     */
     public static int countNumberOfIslands(int[][] grid){
         int count = 0;
         _grid = grid;

@@ -1,8 +1,7 @@
 # Waddle
-> A **Waddle** is a group of penguins
+A Waddle is a group of penguins
 
-A collection of algorithms in Java
-
+> This project '**Waddle**' is collection of algorithms in Java. This is where I practice my Java on well known algorithms and problems.
 
 ### Trees
 * count the number of nodes in a complete binary tree
@@ -15,4 +14,5 @@ A collection of algorithms in Java
 * reverse a single linked list in place between ```m``` and ```n```
 
 ### Misc
+* calculate the angle between clock hands
 * count the number of 1's islands in 2d matrix

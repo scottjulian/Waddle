@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle.classes;
+package net.scottjulian.Waddle;
 
 
 import net.scottjulian.Waddle.util.SingleLinkedListNode;
