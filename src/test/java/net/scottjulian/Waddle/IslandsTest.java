@@ -1,7 +1,7 @@
 package net.scottjulian.Waddle;
 
 
-import net.scottjulian.Waddle.util.Islands;
+import net.scottjulian.Waddle.util.misc.Islands;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

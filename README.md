@@ -12,6 +12,10 @@ A Waddle is a group of penguins
 * does a word exist in 2d grid
 * find indices of 2 ints that add up to target value
 
+### Strings
+* find is a string is an anagram of a palindrome
+* find the shortest palindrome of a given string
+
 ### Linked Lists
 * reverse a single linked list in place between ```m``` and ```n```
 

@@ -1,6 +1,6 @@
 package net.scottjulian.Waddle;
 
-import net.scottjulian.Waddle.util.BinaryTreeNode;
+import net.scottjulian.Waddle.util.node.BinaryTreeNode;
 
 public final class Trees {
 
