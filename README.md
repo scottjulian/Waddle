@@ -22,3 +22,4 @@ A Waddle is a group of penguins
 ### Misc
 * calculate the angle between clock hands
 * count the number of 1's islands in 2d matrix
+* find if a number is a power of 2
