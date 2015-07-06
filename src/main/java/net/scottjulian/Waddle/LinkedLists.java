@@ -6,7 +6,6 @@ import net.scottjulian.Waddle.util.node.SingleLinkedListNode;
 public final class LinkedLists {
 
     /**
-     *
      * https://leetcode.com/problems/reverse-linked-list-ii/
      *
      * @param head
@@ -14,7 +13,7 @@ public final class LinkedLists {
      * @param n
      * @return
      */
-    public static SingleLinkedListNode reverseSingleLinkedListBetwee(SingleLinkedListNode head, int m, int n){
+    public static SingleLinkedListNode reverseSingleLinkedListBetween(SingleLinkedListNode head, int m, int n){
         if(head.next == null || n - m == 0)
             return head;
 

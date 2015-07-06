@@ -27,4 +27,21 @@ public final class Misc {
     public static int countNumberOfIslands(int[][] grid){
         return Islands.countNumberOfIslands(grid);
     }
+
+    /**
+     * Find out if a given int is a power of 2
+     * https://leetcode.com/problems/power-of-two/
+     *
+     * @param n
+     * @return
+     */
+    public static boolean isPowerOfTwo(int n){
+        if(n <= 0){
+            return false;
+        }
+        else if (((n - 1) & n) == 0){
+            return true;
+        }
+        return false;
+    }
 }
