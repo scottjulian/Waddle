@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle;
+package com.scottjulian.Waddle;
 
 import java.util.TreeSet;
 

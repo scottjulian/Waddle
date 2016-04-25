@@ -1,6 +1,6 @@
-package net.scottjulian.Waddle;
+package com.scottjulian.Waddle;
 
-import net.scottjulian.Waddle.util.misc.Islands;
+import com.scottjulian.Waddle.util.misc.Islands;
 
 public final class Misc {
 

@@ -1,7 +1,8 @@
-package net.scottjulian.Waddle;
+package com.scottjulian.Waddle;
 
-import net.scottjulian.Waddle.clustering.ClusterDataPoint;
-import net.scottjulian.Waddle.clustering.KMedoids.*;
+import com.scottjulian.Waddle.clustering.ClusterDataPoint;
+import com.scottjulian.Waddle.clustering.KMedoids.KMedoidCluster;
+import com.scottjulian.Waddle.clustering.KMedoids.KMedoids;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
-package net.scottjulian.Waddle.clustering.KMedoids;
+package com.scottjulian.Waddle.clustering.KMedoids;
 
-import net.scottjulian.Waddle.clustering.Cluster;
-import net.scottjulian.Waddle.clustering.ClusterDataPoint;
+import com.scottjulian.Waddle.clustering.Cluster;
+import com.scottjulian.Waddle.clustering.ClusterDataPoint;
 
 import java.util.ArrayList;
 import java.util.Iterator;

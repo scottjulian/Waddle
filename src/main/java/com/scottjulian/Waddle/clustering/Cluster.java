@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle.clustering;
+package com.scottjulian.Waddle.clustering;
 
 
 import java.util.ArrayList;

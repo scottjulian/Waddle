@@ -1,7 +1,7 @@
-package net.scottjulian.Waddle;
+package com.scottjulian.Waddle;
 
 
-import net.scottjulian.Waddle.util.node.SingleLinkedListNode;
+import com.scottjulian.Waddle.util.node.SingleLinkedListNode;
 
 public final class LinkedLists {
 

@@ -1,4 +1,4 @@
-package net.scottjulian.Waddle.clustering;
+package com.scottjulian.Waddle.clustering;
 
 public class ClusterDataPoint{
     private int _x;
