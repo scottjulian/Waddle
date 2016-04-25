@@ -19,6 +19,9 @@ A Waddle is a group of penguins
 ### Linked Lists
 * reverse a single linked list in place between ```m``` and ```n```
 
+### Clustering
+* [K-Medoids Clustering](https://en.wikipedia.org/wiki/K-medoids)
+
 ### Misc
 * calculate the angle between clock hands
 * count the number of 1's islands in 2d matrix
